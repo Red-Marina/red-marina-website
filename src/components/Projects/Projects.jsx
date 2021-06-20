@@ -49,17 +49,17 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      
-                      {/* <a
+
+                      <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={url || 'mailto:info@redmarina.co.uk'}
                       >
-                        See Live
+                        Get in Touch
                       </a>
 
-                      {repo && (
+                      {/* {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"

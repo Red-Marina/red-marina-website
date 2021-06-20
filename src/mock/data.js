@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Red Marina', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Red Marina - Software Succsss Consultancy', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'miguel-bruna-TzVN0xQhWaQ-unsplash.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,28 +28,28 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'leader.jpg',
     title: 'Interim Leadership',
-    info: 'This is some detail in a pargraph',
-    info2: '',
+    info: 'If you are looking for interim leadership in a techincal position then we can help. We can provide both part-time and full-time support in a CTO, CIO or Technical Director role.',
+    info2: 'Our past experience has involved running large projects at the \'Big 4\' as well as Fortune 500 companies and large public and third sector entities.',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Project Rescue',
-    info: '',
-    info2: '',
+    img: 'help.jpg',
+    title: 'Consultancy',
+    info: 'If you\'ve a problem with a software project then we are interested in talking to you about it.',
+    info2: 'Through years of experience, we\'ve brought failing projects back from the brink, and turned toxic working environments into places that people want to work.',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Build a Team',
-    info: '',
-    info2: '',
+    img: 'team.jpg',
+    title: 'Build a Software Team', 
+    info: 'We can help you build a successful team to deliver a software project. We can build an internal team, on a temporary or permanent basis - or help you to find the right external supplier.',
+    info2: 'If you aren\'t used to hosting a technical capability in house, then we can work with you to \'bed in\' that capability.',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

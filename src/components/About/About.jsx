@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Let us help you out, whether a project has gone slightly of course and needs correcting - or whether you need a complete reset from a software delivery process. We can help you incept positive change at an organisational level.'}
+                    'Let us help you out when a project has gone slightly off course and needs correcting - or when you need a complete reset with your software delivery process, we can help you incept positive change at an organisational level.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Our core values are honesty, integrity and equality. We aspire to bring technology teams together to thrive while enjoying their working environments.'}
