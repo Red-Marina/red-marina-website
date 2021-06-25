@@ -31,5 +31,11 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://redmarina.co.uk/`,
+      },
+    },
   ],
 };
