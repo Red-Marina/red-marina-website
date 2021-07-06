@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'leader.jpg',
     title: 'Interim Leadership',
-    info: 'If you are looking for interim leadership in a techincal position then we can help. We can provide both part-time and full-time support in a CTO, CIO or Technical Director role.',
+    info: 'If you are looking for interim leadership in a technical position then we can help. We can provide both part-time and full-time support in a CTO, CIO or Technical Director role.',
     info2: 'Our past experience has involved running large projects at the \'Big 4\' as well as Fortune 500 companies and large public and third sector entities.',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
